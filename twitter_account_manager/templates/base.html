@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<title>{%block title %}Twitter account manager{% endblock %}</title>
+		{% block header_css %}
+		<script type="text/javascript" script="{{ url_for('static', filename="jquery-ui/js/jquery-1.8.2.js") }}"></script>
+		<script type="text/javascript" script="{{ url_for('static', filename="jquery-ui/js/jquery-ui-1.9.1.custom.js") }}"></script>
+		<script type="text/javascript" script="{{ url_for('static', filename="underscore.js") }}"></script>
+		<script type="text/javascript" script="{{ url_for('static', filename="backbone.js") }}"></script>
+		{% endblock %}
+		{% block header_javascript %}
+		<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename="jquery-ui/development-bundle/themes/base/jquery-ui.css") }}">
+		<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename="bootstrap/css/bootstrap.css") }}">
+		{% endblock %}
+	</head>
+	<body>{% block body %}{%endblock %}</body>
+</html>
