@@ -13,5 +13,10 @@
 		<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename="bootstrap/css/bootstrap.css") }}">
 		{% endblock %}
 	</head>
-	<body>{% block body %}{%endblock %}</body>
+	<body>
+		<div class="container">
+			{% include "menu.html" %}
+			{% block body %}{%endblock %}
+		</div>
+	</body>
 </html>
