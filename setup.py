@@ -8,7 +8,8 @@ setup(
       'flask==0.9',
       'Flask-DebugToolbar==0.7.1',
       'Flask-Script==0.5.1',
-      'flask-peewee==0.6.1',
+      'Flask-SQLAlchemy==0.16',
+      'twitter==1.9.0',
     ],
     extras_require= {
     },
