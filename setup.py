@@ -9,7 +9,7 @@ setup(
       'Flask-DebugToolbar==0.7.1',
       'Flask-Script==0.5.1',
       'Flask-SQLAlchemy==0.16',
-      'twitter==1.9.0',
+      'Flask-OAuth==0.12',
     ],
     extras_require= {
     },

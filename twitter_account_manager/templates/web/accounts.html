@@ -1,4 +1,10 @@
 {% extends "base.html" %}
 {% block body %}
-
+<ul>
+{% for account in accounts %}
+	<li>
+		{{ account.id }} - {{ account.oauth_token }}
+	</li>
+{% endfor %}
+</ul>
 {% endblock %}
